@@ -1,0 +1,66 @@
+{
+  "name": "cheap-eats-bali",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "type-check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@arcjet/next": "^1.4.0",
+    "@clerk/nextjs": "^7.4.3",
+    "@neondatabase/serverless": "^1.1.0",
+    "@radix-ui/react-dialog": "^1.1.16",
+    "@radix-ui/react-select": "^2.3.0",
+    "@radix-ui/react-slider": "^1.4.0",
+    "@types/leaflet": "^1.9.21",
+    "arcjet": "^1.4.0",
+    "cloudinary": "^2.10.0",
+    "drizzle-orm": "^0.45.2",
+    "drizzle-zod": "^0.8.3",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.17.0",
+    "motion": "^12.40.0",
+    "next": "16.2.7",
+    "next-intl": "^4.13.0",
+    "posthog-js": "^1.382.0",
+    "posthog-node": "^5.36.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-leaflet": "^5.0.0",
+    "svix": "^1.95.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.16",
+    "@playwright/test": "^1.60.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6.0.2",
+    "drizzle-kit": "^0.31.10",
+    "husky": "^9.1.7",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^4.1.8"
+  },
+  "ignoreScripts": [
+    "sharp",
+    "unrs-resolver"
+  ],
+  "trustedDependencies": [
+    "sharp",
+    "unrs-resolver"
+  ]
+}
