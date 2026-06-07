@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "addPlace": "Add Place",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "profile": "My Profile",
+    "admin": "Admin"
+  },
+  "map": {
+    "searchPlaceholder": "Search places...",
+    "filters": "Filters",
+    "area": "Area",
+    "price": "Price",
+    "rating": "Rating",
+    "cuisine": "Cuisine",
+    "category": "Category",
+    "tags": "Tags"
+  },
+  "place": {
+    "addReview": "Write a Review",
+    "flag": "Report",
+    "submit": "Submit Place",
+    "name": "Place Name",
+    "description": "Description",
+    "area": "Area",
+    "category": "Category",
+    "priceRange": "Price Range",
+    "priceNotes": "Price Notes (optional)",
+    "photos": "Photos"
+  },
+  "review": {
+    "rating": "Rating",
+    "emojiTags": "Vibe",
+    "body": "Your review (optional)",
+    "submit": "Submit Review",
+    "upvote": "Helpful"
+  },
+  "profile": {
+    "placesSubmitted": "Places Submitted",
+    "reviewsWritten": "Reviews Written",
+    "joinedDate": "Joined"
+  }
+}

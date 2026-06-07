@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "addPlace": "Tambah Tempat",
+    "signIn": "Masuk",
+    "signOut": "Keluar",
+    "profile": "Profil Saya",
+    "admin": "Admin"
+  },
+  "map": {
+    "searchPlaceholder": "Cari tempat...",
+    "filters": "Filter",
+    "area": "Area",
+    "price": "Harga",
+    "rating": "Rating",
+    "cuisine": "Masakan",
+    "category": "Kategori",
+    "tags": "Tag"
+  },
+  "place": {
+    "addReview": "Tulis Ulasan",
+    "flag": "Laporkan",
+    "submit": "Tambah Tempat",
+    "name": "Nama Tempat",
+    "description": "Deskripsi",
+    "area": "Area",
+    "category": "Kategori",
+    "priceRange": "Kisaran Harga",
+    "priceNotes": "Catatan Harga (opsional)",
+    "photos": "Foto"
+  },
+  "review": {
+    "rating": "Rating",
+    "emojiTags": "Vibe",
+    "body": "Ulasan kamu (opsional)",
+    "submit": "Kirim Ulasan",
+    "upvote": "Bermanfaat"
+  },
+  "profile": {
+    "placesSubmitted": "Tempat Ditambahkan",
+    "reviewsWritten": "Ulasan Ditulis",
+    "joinedDate": "Bergabung"
+  }
+}
