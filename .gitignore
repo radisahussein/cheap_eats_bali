@@ -41,5 +41,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# superpowers brainstorm artifacts
+# AI tooling (never commit)
 .superpowers/
+.claude/
