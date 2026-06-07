@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main, stage, phase/**]
+  pull_request:
+    branches: [main, stage]
+
+jobs:
+  ci:
+    name: Lint · Type-check · Unit Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Lint
+        run: bun run lint
+
+      - name: Type-check
+        run: bun run type-check
+
+      - name: Unit tests
+        run: bun run test
